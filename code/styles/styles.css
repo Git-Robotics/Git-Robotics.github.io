@@ -408,6 +408,10 @@ p {
         background-color: rgb(0, 0, 0);
     }
 
+    #qFix {
+        width: 25%;
+    }
+
     h1 {
         font-size: 40pt;
     }
@@ -424,5 +428,5 @@ p {
 
     .sections img {
         width: 75%;
-    }
+    } 
 }
