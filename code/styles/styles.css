@@ -395,11 +395,12 @@ p {
     #logo {
         position: static;
     }
-
+    /*
     #navigation {
         margin-left: auto;
         margin-right: auto;
     }
+    */
 
     #seperator {
         display: block;
