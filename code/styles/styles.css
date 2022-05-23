@@ -395,12 +395,11 @@ p {
     #logo {
         position: static;
     }
-    /*
+
     #navigation {
         margin-left: auto;
         margin-right: auto;
     }
-    */
 
     #seperator {
         display: block;
@@ -414,8 +413,8 @@ p {
     }
 
     .navT {
-        margin-right: 15px;
-        margin-left: 15px;
+        display: block;
+        margin-top: 10px;
     }
 
     .navB a {
@@ -425,5 +424,6 @@ p {
 
     .sections img {
         width: 75%;
-    } 
+        border-radius: 10px;
+    }
 }
