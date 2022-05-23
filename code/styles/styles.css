@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:wght@400;500&family=Ubuntu&display=swap'); /* Import fonts here */
+
+/* Direct */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center; 
+    font-size: 50pt;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-top: 40%;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+/* By ID */
+
+#wrapper {
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+    "t t t t t"
+    ". m m m ."
+    "b b b b b";
+}
+
+#top {
+    grid-area: t;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+}
+
+#main_content {
+    grid-area: m;
+}
+
+#bottom {
+    grid-area: b;
+}
+
+#navigation {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#front {
+    text-align: center; 
+    font-size: 30pt; 
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+}
+
+#seperator {
+    display: none;
+}
+
+/*
+#copyright {
+    color: rgba(0, 0, 0, 0.25);
+}
+*/
+
+/* By Class */
+
+.nav_item {
+    display: inline-block;
+}
+
+.navT {
+    margin-right: 40px;
+}
+
+.navT a {
+    display: block;
+    color: rgb(0, 0, 0);
+
+    animation-name: navTOffHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: navTOffHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: navTOffHover;
+    -moz-animation-duration: 0.25s;
+
+    -webkit-animation-name: navTOffHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.navB {
+    margin-right: 24px;
+}
+
+.navB a {
+    display: block;
+    color: rgb(0, 0, 0, 0.75);
+
+    animation-name: navBOffHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: navBOffHover;
+    -o-animation-duration: 0.5s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: navBOffHover;
+    -moz-animation-duration: 0.5s;
+
+    -webkit-animation-name: navBOffHover;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.links {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+}
+
+.sect {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    gap: 10px;
+
+    animation-name: sectOffHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: sectOffHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: sectOffHover;
+    -moz-animation-duration: 0.25s;
+
+    -webkit-animation-name: sectOffHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.sections {
+    text-align: center;
+    padding: 20px;
+
+    flex-grow: 1;
+}
+
+.sections img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.con {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    animation-name: contactOffHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: contactOffHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: contactOffHover;
+    -moz-animation-duration: 0.25s;
+
+    -webkit-animation-name: contactOffHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.social {
+    font-size: 50pt;
+    color: rgba(255, 0, 0, 0.75);
+}
+
+.bigButton {
+    animation-name: bigButtonOffHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: bigButtonOffHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: bigButtonOffHover;
+    -moz-animation-duration: 0.25s;
+    
+    -webkit-animation-name: bigButtonOffHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* Basic Animations */
+
+.navT a:hover {
+    animation-name: navTHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: navTHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: navTHover;
+    -moz-animation-duration: 0.25s;
+
+    -webkit-animation-name: navTHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.navB a:hover {
+    animation-name: navBHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: navBHover;
+    -o-animation-duration: 0.5s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: navBHover;
+    -moz-animation-duration: 0.5s;
+
+    -webkit-animation-name: navBHover;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.sect:hover {
+    animation-name: sectHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: sectHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: sectHover;
+    -moz-animation-duration: 0.25s;
+    
+    -webkit-animation-name: sectHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.con:hover {
+    animation-name: contactHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: contactHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: contactHover;
+    -moz-animation-duration: 0.25s;
+    
+    -webkit-animation-name: contactHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.bigButton:hover {
+    animation-name: bigButtonHover;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: bigButtonHover;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: bigButtonHover;
+    -moz-animation-duration: 0.25s;
+    
+    -webkit-animation-name: bigButtonHover;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* Before & After */
+
+.navT a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+
+    animation-name: navTPseudoCollapse;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+
+    -o-animation-name: navTPseudoCollapse;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+
+    -moz-animation-name: navTPseudoCollapse;
+    -moz-animation-duration: 0.25s;
+
+    -webkit-animation-name: navTPseudoCollapse;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.navT a:hover::after {
+    animation-name: navTPseudoExpand;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.30s;
+
+    -o-animation-name: navTPseudoExpand;
+    -o-animation-duration: 0.25s;
+    -o-animation-fill-mode: forwards;
+    -o-animation-delay: 0.30s;
+
+    -moz-animation-name: navTPseudoExpand;
+    -moz-animation-duration: 0.25s;
+    -moz-animation-delay: 0.30s;
+
+    -webkit-animation-name: navTPseudoExpand;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.30s;
+}
+
+@media only screen and (max-width: 700px) {
+    #wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "t"
+        "m"
+        "b";
+    }
+
+    #front {
+        font-size: 25pt;
+    }
+
+    #bottom {
+        text-align: center;
+    }
+
+    #top {
+        flex-direction: column;
+        -ms-flex-direction: column;
+
+        text-align: center;
+    }
+
+    #logo {
+        position: static;
+    }
+
+    #navigation {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #seperator {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    h1 {
+        font-size: 40pt;
+    }
+
+    .navT {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .navB a {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .sections img {
+        width: 75%;
+        border-radius: 10px;
+    }
+}

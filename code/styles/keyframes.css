@@ -1,0 +1,397 @@
+/* Keyframes */
+
+@keyframes navBHover {
+    from {
+        transform: rotate(0deg) scale(1);
+    } to {
+        transform: rotate(360deg) scale(1.5);
+        color: rgba(255, 0, 0, 1)
+    }
+}
+
+@-o-keyframes navBHover {
+    from {
+        -o-transform: rotate(0deg) scale(1);
+    } to {
+        -o-transform: rotate(360deg) scale(1.5);
+        color: rgba(255, 0, 0, 1)
+    }
+}
+
+@-moz-keyframes navBHover {
+    from {
+        -moz-transform: rotate(0deg) scale(1);
+    } to {
+        -moz-transform: rotate(360deg) scale(1.5);
+        color: rgba(255, 0, 0, 1)
+    }
+}
+
+@-webkit-keyframes navBHover {
+    from {
+        -webkit-transform: rotate(0deg) scale(1);
+    } to {
+        -webkit-transform: rotate(360deg) scale(1.5);
+        color: rgba(255, 0, 0, 1)
+    }
+}
+
+@keyframes navBOffHover {
+    from {
+        transform: rotate(360deg) scale(1.5);;
+    } to {
+        transform: rotate(0deg) scale(1);;
+    }
+}
+
+@-o-keyframes navBOffHover {
+    from {
+        -o-transform: rotate(360deg) scale(1.5);;
+    } to {
+        -o-transform: rotate(0deg) scale(1);;
+    }
+}
+
+@-moz-keyframes navBOffHover {
+    from {
+        -moz-transform: rotate(360deg) scale(1.5);;
+    } to {
+        -moz-transform: rotate(0deg) scale(1);;
+    }
+}
+
+@-webkit-keyframes navBOffHover {
+    from {
+        -webkit-transform: rotate(360deg) scale(1.5);;
+    } to {
+        -webkit-transform: rotate(0deg) scale(1);;
+    }
+}
+
+@keyframes navTHover {
+    from {
+        transform: scale(1);
+    } to {
+        transform: scale(1.2);
+    }
+}
+
+@-o-keyframes navTHover {
+    from {
+        -o-transform: scale(1);
+    } to {
+        -o-transform: scale(1.2);
+    }
+}
+
+@-moz-keyframes navTHover {
+    from {
+        -moz-transform: scale(1);
+    } to {
+        -moz-transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes navTHover {
+    from {
+        -webkit-transform: scale(1);
+    } to {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@keyframes navTOffHover {
+    from {
+        transform: scale(1.2);
+    } to {
+        transform: scale(1);
+    }
+}
+
+@-o-keyframes navTOffHover {
+    from {
+        -o-transform: scale(1.2);
+    } to {
+        -o-transform: scale(1);
+    }
+}
+
+@-moz-keyframes navTOffHover {
+    from {
+        -moz-transform: scale(1.2);
+    } to {
+        -moz-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes navTOffHover {
+    from {
+        -webkit-transform: scale(1.2);
+    } to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes navTPseudoExpand {
+    from {
+        width: 0%;
+    } to {
+        width: 100%;
+    }
+}
+
+@-o-keyframes navTPseudoExpand {
+    from {
+        width: 0%;
+    } to {
+        width: 100%;
+    }
+}
+
+@-moz-keyframes navTPseudoExpand {
+    from {
+        width: 0%;
+    } to {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes navTPseudoExpand {
+    from {
+        width: 0%;
+    } to {
+        width: 100%;
+    }
+}
+
+@keyframes navTPseudoCollapse {
+    from {
+        width: 100%;
+    } to {
+        width: 0%;
+    }
+}
+
+@-o-keyframes navTPseudoCollapse {
+    from {
+        width: 100%;
+    } to {
+        width: 0%;
+    }
+}
+
+@-moz-keyframes navTPseudoCollapse {
+    from {
+        width: 100%;
+    } to {
+        width: 0%;
+    }
+}
+
+@-webkit-keyframes navTPseudoCollapse {
+    from {
+        width: 100%;
+    } to {
+        width: 0%;
+    }
+}
+
+@keyframes contactHover {
+    from {
+        transform: scale(1);
+    } to {
+        transform: scale(1.2);
+    }
+}
+
+@-o-keyframes contactHover {
+    from {
+        -o-transform: scale(1);
+    } to {
+        -o-transform: scale(1.2);
+    }
+}
+
+@-moz-keyframes contactHover {
+    from {
+        -moz-transform: scale(1);
+    } to {
+        -moz-transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes contactHover {
+    from {
+        -webkit-transform: scale(1);
+    } to {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@keyframes contactOffHover {
+    from {
+        transform: scale(1.2);
+    } to {
+        transform: scale(1);
+    }
+}
+
+@-o-keyframes contactOffHover {
+    from {
+        -o-transform: scale(1.2);
+    } to {
+        -o-transform: scale(1);
+    }
+}
+
+@-moz-keyframes contactOffHover {
+    from {
+        -moz-transform: scale(1.2);
+    } to {
+        -moz-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes contactOffHover {
+    from {
+        -webkit-transform: scale(1.2);
+    } to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes bigButtonHover {
+    from {
+        transform: scale(1);
+    } to {
+        transform: scale(1.1);
+    }
+}
+
+@-o-keyframes bigButtonHover {
+    from {
+        -o-transform: scale(1);
+    } to {
+        -o-transform: scale(1.1);
+    }
+}
+
+@-moz-keyframes bigButtonHover {
+    from {
+        -moz-transform: scale(1);
+    } to {
+        -moz-transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes bigButtonHover {
+    from {
+        -webkit-transform: scale(1);
+    } to {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@keyframes bigButtonOffHover {
+    from {
+        transform: scale(1.1);
+    } to {
+        transform: scale(1);
+    }
+}
+
+@-o-keyframes bigButtonOffHover {
+    from {
+        -o-transform: scale(1.1);
+    } to {
+        -o-transform: scale(1);
+    }
+}
+
+@-moz-keyframes bigButtonOffHover {
+    from {
+        -moz-transform: scale(1.1);
+    } to {
+        -moz-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bigButtonOffHover {
+    from {
+        -webkit-transform: scale(1.1);
+    } to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes sectHover {
+    from {
+        background-color: rgba(255, 255, 255, 0);
+    } to {
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+@-o-keyframes sectHover {
+    from {
+        background-color: rgba(255, 255, 255, 0);
+    } to {
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+@-moz-keyframes sectHover {
+    from {
+        background-color: rgba(255, 255, 255, 0);
+    } to {
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+@-webkit-keyframes sectHover {
+    from {
+        background-color: rgba(255, 255, 255, 0);
+    } to {
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+@keyframes sectOffHover {
+    from {
+        background-color: rgba(255, 255, 255, 0.75);
+    } to {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+@-o-keyframes sectOffHover {
+    from {
+        background-color: rgba(255, 255, 255, 0.75);
+    } to {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+@-moz-keyframes sectOffHover {
+    from {
+        background-color: rgba(255, 255, 255, 0.75);
+    } to {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+@-webkit-keyframes sectOffHover {
+    from {
+        background-color: rgba(255, 255, 255, 0.75);
+    } to {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+/* 
+Some of this keyframe code may be redundant.
+*/
