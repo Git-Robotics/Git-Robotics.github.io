@@ -20,7 +20,7 @@ function setup() {
   }
 
   if(!flag) {
-    let amount = 30;
+    let amount = 20;
     for(let i = 0 ; i < amount ; i++) {
       objects[i] = new Particle(i);
     }
@@ -29,7 +29,7 @@ function setup() {
 
 function draw() {
   background(255);
-  
+
   if(!flag) {
     for(let p of objects) {
       for(let o of objects) {
