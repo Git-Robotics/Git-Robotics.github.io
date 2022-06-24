@@ -11,7 +11,9 @@ function setup() {
   canvas.position(0, 0, 'fixed');
   canvas.style('z-index', '-1');
 
-  if(windowWidth <= windowHeight) {
+  // The below if statement is pulled from a thread on stack overflow.
+  // I know how the code works. The /i modifier makes it case insensitive. The .test() matches the value of navigator.useragent to one of the strings.
+  if( /webOS|Android|iPad|iPhone|iPod|IEMobile|BlackBerry|Opera Mini|Kindle|KFAPWI/i.test(navigator.userAgent) ) {
     flag = 1;
   } else {
     flag = 0;
