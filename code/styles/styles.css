@@ -161,21 +161,12 @@ p {
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     gap: 10px;
+}
 
-    animation-name: sectOffHover;
-    animation-duration: 0.25s;
-    animation-fill-mode: forwards;
-
-    -o-animation-name: sectOffHover;
-    -o-animation-duration: 0.25s;
-    -o-animation-fill-mode: forwards;
-
-    -moz-animation-name: sectOffHover;
-    -moz-animation-duration: 0.25s;
-
-    -webkit-animation-name: sectOffHover;
-    -webkit-animation-duration: 0.25s;
-    -webkit-animation-fill-mode: forwards;
+/* The way I did this is the code equivalent of duct tape. I will refine at a later date. */
+.bg {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .sections {
@@ -266,23 +257,6 @@ p {
 
     -webkit-animation-name: navBHover;
     -webkit-animation-duration: 0.5s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-.sect:hover {
-    animation-name: sectHover;
-    animation-duration: 0.25s;
-    animation-fill-mode: forwards;
-
-    -o-animation-name: sectHover;
-    -o-animation-duration: 0.25s;
-    -o-animation-fill-mode: forwards;
-
-    -moz-animation-name: sectHover;
-    -moz-animation-duration: 0.25s;
-    
-    -webkit-animation-name: sectHover;
-    -webkit-animation-duration: 0.25s;
     -webkit-animation-fill-mode: forwards;
 }
 
